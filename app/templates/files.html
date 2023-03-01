@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div class="list-container">
+    <ul>
+        {% for item in list %}
+            <img class="img" src={{url_for("get_image", filename=item)}}  >
+        {% endfor %}
+    </ul>
+    
+</div>
+
+{% endblock %}

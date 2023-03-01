@@ -18,3 +18,45 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.list-container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.list-container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list-container ul img {
+    width: 25%;
+    height: 30vh;
+    margin: 20px;
+    object-fit: contain;
+}
+
+.file-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 20px;
+    width: 30%;
+}
+
+.file-form button {
+    width: 100px;
+    border: none;
+    margin-top: 30px;
+    background: rgb(0, 183, 255);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.file-form button:hover {
+    background: rgb(10, 111, 151);
+}
